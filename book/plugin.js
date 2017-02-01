@@ -1,9 +1,34 @@
-require(["gitbook"], function(gitbook) {
+// script to style blockquotes for info, warning, success and alert
 
+infoStyle = { 'background': '#eff5ff', 'border-color': '#42acf3', 'color': '#444' };
+warningStyle = { 'background': '#fcf8f2', 'border-color': '#f0ad4e', 'color': '#444' };
+alertStyle = { 'background': '#fdf7f7', 'border-color': '#d9534f', 'color': '#444' };
+successStyle = { 'background': '#f3f8f3', 'border-color': '#50af51', 'color': '#444' };
+
+styleMapping = {
+    '[info]': infoStyle,
+    '[warning]': warningStyle,
+    '[alert]': alertStyle,
+    '[success]': successStyle
+}
+
+iconMapping = {
+    '[info]': '<i class="fa fa-info-circle"></i>',
+    '[warning]': '<i class="fa fa-exclamation-circle"></i>',
+    '[alert]': '<i class="fa fa-ban"></i>',
+    '[success]': '<i class="fa fa-check-circle"></i>'
+}
+
+titleMapping = {
+    '[info]': { 'color': '#42acf3' },
+    '[warning]': { 'color': '#f0ad4e' },
+    '[alert]': { 'color': '#d9534f' },
+    '[success]': { 'color': '#50af51' }
+}
+
+require(["gitbook", "jQuery"], function(gitbook, $) {
     // Load
     gitbook.events.bind("page.change", function(e, config) {
-        var cfg = config.alerts;
-
         bqs = $('blockquote');
         bqs.each(function(index) {
 
