@@ -42,5 +42,7 @@ Success styling
 ```
 
 ## Support
+Please create an [issue](https://github.com/hypertrack/gitbook-plugin-alerts/issues) for bugs and contributions.
 
 ## Possible contributions
+Add config for custom styling. Send in your pull requests!
