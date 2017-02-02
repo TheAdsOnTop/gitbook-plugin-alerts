@@ -30,7 +30,7 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
     // Load
     gitbook.events.bind("page.change", function(e, config) {
         bqs = $('blockquote');
-        bqs.each(function(index) {`
+        bqs.each(function(index) {
 
             for (key in styleMapping) {
                 htmlStr = $(this).html()
