@@ -1,6 +1,8 @@
 # gitbook-plugin-alerts
 Info, warning, danger, success blockquotes for your gitbook.
 
+[![npm version](https://badge.fury.io/js/gitbook-plugin-alerts.svg)](https://badge.fury.io/js/gitbook-plugin-alerts)
+
 ![Screenshot](screenshot.png)
 
 ## Installation
