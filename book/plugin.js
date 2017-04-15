@@ -29,6 +29,8 @@ titleMapping = {
 require(["gitbook", "jQuery"], function(gitbook, $) {
     // Load
     gitbook.events.bind("page.change", function(e, config) {
+        console.log('inside alerts', config);
+
         bqs = $('blockquote');
         bqs.each(function(index) {
 
