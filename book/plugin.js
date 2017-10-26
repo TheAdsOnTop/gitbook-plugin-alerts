@@ -25,7 +25,7 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
         bqs = $('blockquote');
         bqs.each(function(index) {
 
-            for (key in styleMapping) {
+            for (key in styleMap) {
                 htmlStr = $(this).html()
 
                 if (htmlStr.indexOf(key) > 0) {
