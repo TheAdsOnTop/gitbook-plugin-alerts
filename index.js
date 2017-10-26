@@ -3,6 +3,9 @@ module.exports = {
         assets: "./book",
         js: [
             "plugin.js"
+        ],
+        css: [
+            "style.css"
         ]
     }
 };
