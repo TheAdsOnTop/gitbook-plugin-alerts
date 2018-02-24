@@ -1,32 +1,45 @@
 .info {
-    background: #eff5ff;
-    border-color: #42acf3;
-    color: #444;
+    background: white;
+    border: 1px solid #40a9ff;
+    border-left: 4px solid #40a9ff !important;
+    color: rgba(0, 0, 0, 0.65);
+    padding: 8px !important;
 }
+
+.info p:last-child {
+    margin-bottom: 0px !important;
+}
+
 .info strong {
-    color: #42acf3;
+    color: #1890ff;
 }
 .warning {
-    background: #fcf8f2;
-    border-color: #f0ad4e;
-    color: #444;
+    background: white;
+    border: 1px solid #faad14;
+    border-left: 4px solid #faad14 !important;
+    color: rgba(0, 0, 0, 0.65);
+    padding: 8px !important;
 }
 .warning strong {
-    color: #f0ad4e;
+    color: #faad14;
 }
 .danger {
-    background: #fdf7f7;
-    border-color: #d9534f;
-    color: #444;
+    background: white;
+    border: 1px solid #ff4d4f;
+    border-left: 4px solid #ff4d4f !important;
+    color: rgba(0, 0, 0, 0.65);
+    padding: 8px !important;
 }
 .danger strong {
-    color: #d9534f;
+    color: #f5222d;
 }
 .success {
-    background: #f3f8f3;
-    border-color: #50af51;
-    color: #444;
+    background: white;
+    border: 1px solid #73d13d;
+    border-left: 4px solid #73d13d !important;
+    color: rgba(0, 0, 0, 0.65);
+    padding: 8px !important;
 }
 .success strong {
-    color: #50af51;
+    color: #52c41a;
 }
