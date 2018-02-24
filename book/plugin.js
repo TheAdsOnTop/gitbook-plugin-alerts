@@ -10,7 +10,7 @@ styleMap = {
         className: 'warning'
     },
     '[danger]': {
-        htmlStr: '<i class="fa fa-ban"></i>',
+        htmlStr: '<i class="fa fa-times-circle"></i>',
         className: 'danger'
     },
     '[success]': {
